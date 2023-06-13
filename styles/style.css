@@ -1,0 +1,30 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.btn {
+	@apply cursor-pointer px-5 py-2 border-gray-700 uppercase;
+}
+
+.delete-checkbox {
+	@apply absolute left-4 top-4;
+}
+
+.input {
+	@apply border border-black rounded-sm w-64 p-2;
+}
+
+.item {
+	@apply mb-5;
+}
+
+.label {
+	display: inline-block;
+	width: 120px;
+}
+
+.desc {
+	@apply text-sm;
+}
